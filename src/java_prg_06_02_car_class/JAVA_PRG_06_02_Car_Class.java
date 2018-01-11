@@ -15,7 +15,44 @@ public class JAVA_PRG_06_02_Car_Class {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Car car = new Car();
+        
+        car.setYear(1999);
+        car.setMake("Buick");
+        
+        car.accelerate();
+        System.out.println(car.getSpeed());
+        
+        car.accelerate();
+        System.out.println(car.getSpeed());
+        
+        car.brake();
+        System.out.println(car.getSpeed());
+        
+        car.accelerate();
+        System.out.println(car.getSpeed());
+        
+        car.accelerate();
+        System.out.println(car.getSpeed());
+        
+        car.brake();
+        System.out.println(car.getSpeed());
+        
+        car.brake();
+        System.out.println(car.getSpeed());
+        
+        car.brake();
+        System.out.println(car.getSpeed());
+        
+        car.brake();
+        System.out.println(car.getSpeed());
+        
+        car.brake();
+        System.out.println(car.getSpeed());
+        
+        car.brake();
+        System.out.println(car.getSpeed());
+        
     }
     
 }
